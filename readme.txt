@@ -158,3 +158,29 @@ when we run sudo command or any commands as root user, as administrator. we get 
 password prompt. we need a root password to actually run the commands.
 if it does not ask for password, then it is a security problem because any user on the system will run commands 
 as the administrator without typing the password.
+
+
+8. Chmod
+each file in Linux has permissions. we have some files on the system. We could right click on the file,
+click properties and click tab Permissions. inside permissions, we have several things. So default user can 
+read and write files. Users, members of the group linux can only read files and others can only read file. 
+there's also a permission to allow to run this file as a program. different permissions can be set.
+when we type before ls -l, we saw permissions of files here on the left (r for read and w for write. 
+r for read write, x for execute file as program). for example, we check file example.txt so I right clicked 
+on example txt with properties and have permissions. So if I do ls -l  So example txt you'll see the permissions 
+so there is read right for the user.
+
+rw-r-r kali (the user kali can read write and user kali can read).
+So if we put everything to read write, then anybody on the system can read and write this file. 
+right click on the file and click on permission, If we list it, you'll see three boxes permission because 
+first is permission for owner reads write, then for the group reads write and then for others reads write.
+Seeing the multiple mods. (when you type command ls -l example.txt, the results showing first permission 
+for the user or owner, second permission will be for group and third will be for others).
+
+We can also set permission with cmd instead of doing this with a graphical user interface. We can type 
+chmod +x example.txt. it changed the permission to executable with x word. the file is executable for anyone.
+to remove that permission, we can type -X.
+So for example, you might say user should be able to read write. The group should be able to read. 
+And others should be able to read. 
+(chmod U=rw, g=r, o=r example.txt). we can change permission by writing (r, w).
+
