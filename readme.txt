@@ -137,3 +137,24 @@ grep "linux" *.
 So if you do asterisks you can find it searches any file in your home directory.
 If you just want to see only txt file, you can type *.txt. So you'll see it found one file containing that word.
 
+
+7. Sudo 
+Linux is a multi user system, there can be one or more users on the system.
+run the command whoami to see current user.
+
+there's always one user on Linux system which is administrator. administrator is called root. Root has its 
+own file directory which is in the directory/ root.
+So if you find it in the folder and location, you'll see there is a root directory that you cannot enter. This is permission denied. So that's root and only admin can access. There actually contains the files and folders of the user roots.
+Root is the system administrator.
+even though I am not root, I might be able to run commands as root. with sudo commands we can execute commands 
+as if you are root (administrator).
+if we type sudo space and then any command for example who am i we'll see now it outputs root. it executes 
+commands after sudo as root.
+when we type sudo it will ask password of root user. But it doesn't have to always be the case.
+if I were to enter or list of files in the root directory. So ls /root. It says permission denied. However
+if we do the same thing with pseudo inference, it will try that commands as the root user.
+we will see it now executes that command without problem.
+when we run sudo command or any commands as root user, as administrator. we get permission denied or get 
+password prompt. we need a root password to actually run the commands.
+if it does not ask for password, then it is a security problem because any user on the system will run commands 
+as the administrator without typing the password.
