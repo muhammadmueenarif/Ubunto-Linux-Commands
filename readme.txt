@@ -59,3 +59,31 @@ So ll, and ls -l will do the exact same thing.
 like ls -H -S for the human readable formats, but maybe we want the long format. so ls -h -s -l
 So this is one way to write it, but you can also combine those. So you can say ls  -hsl. it does the same 
 thing as typing that separately (ls -h -s -l).
+
+
+4. Show file contents
+cat command
+it is used to get contents. it outputs the file contents. For example, we have two files and we could Type 
+cat filename and it shows the contents of file. If we open the same file with a text editor, you'll see 
+it's exactly the same file contents.
+
+Sometimes the cat command is not available. then we can use alternatives like see cat spelled 
+backwards tac and it does exactly the same thing.
+However, the tac command has less funcnality. So if we type cat --help, we see there are some flex that can be used. 
+tac doesn't have that many functions.
+
+Another commands you can use is the head commands. for example head example.txt you'll see it outputs the same thing. 
+it's an alternative. 
+difference with the head commands is that shows from the top the first lines where you can specify. for example 
+if we write head -n 1 example.txt ,now only the first line from the top of file will be shown. and 
+similarly we can specify up to as many lines as we want
+
+So another one you can also read from the bottom using the tail command. If you say tail example.txt, it just 
+shows the file and the first line from the bottom or the second line. example tail -n 1 example.txt, So tail 
+commands can be used to output as well.
+
+There are some alternative to cat commands like xxd commands. So when we type xxd with any NFL, we can see 
+file content. However, this is in hexadecimal format.  it's a computer format.
+And another trick that can be used is using base 64.  example base64 example.txt | base64 --decode. 
+it also shows the file contents. in case Cat Command is not available. in 99% of the cases, cat commands available. 
+
