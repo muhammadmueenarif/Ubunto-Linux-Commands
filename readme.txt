@@ -118,3 +118,22 @@ So when you put the asterisks in front, then the file name can contain that word
 It can be ending with any other file formats. So if you only want to txt you would type Ending with .txt, then it will give only ending with .txt. (find -name "*example.txt")
 So if you just want it containing the words, write * on both sides.
 
+
+6. Grep 
+we can search within text files or within files using the grep commands. grep commands can search within a 
+specific file. For example, we have file txt and we could search for the word x inside file txt and that will 
+show you all the lines with the word text. (grep "text" example.txt). So it will show the lines containing words text.
+with grep commands, we can search within files and it doesn't have to be just a single file. we can search 
+in a bunch of files. For example, we can search for word file in any text file. So grep "text" *.txt that 
+would search for the word file in any of the text files.
+
+And it will show all text files on system that contain the word file. Or we might search for word Linux 
+inside text files.
+it can be case sensitive, if we do a capital L, we'll see it finds another file. So the grep commands and 
+things in general in Linux are case sensitive.
+it matters to use capital letter or lowercase letter which grep commands can search within text files or 
+within any type of file. for example, search for the word linux in any of the files on the system. 
+grep "linux" *.
+So if you do asterisks you can find it searches any file in your home directory.
+If you just want to see only txt file, you can type *.txt. So you'll see it found one file containing that word.
+
