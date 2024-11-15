@@ -256,3 +256,11 @@ Man cd will give detailed info about cd command. Man pwd will give about pwd com
 
 If we forget command and write hi and press tab button 2 times then it will show commands starting with hi. history
 Apropos his, this will show all similar commands with his. 
+
+
+14. History 
+it will show recently used commands. History 5, will show last 5 commands. We can use !4 to run 4 number 
+command from history. 
+If we want to search within history of command, we can use ctrl + r. And type command. 
+We can clean command history by typing history ~c. 
+
