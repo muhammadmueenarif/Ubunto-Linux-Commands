@@ -194,3 +194,23 @@ onto the computer.
 one thing you noticed is that it shows all of that output into the terminal. while it's downloading, we 
 can't do anything else. So we can download in the background. if we type - b before URL (wget -b URL), 
 then download in background. see now we don't see any outputs. We can continue using terminal while download.
+
+
+10. Curl 
+curl commands can be used to interact with the internet. you can use the commands with several protocols.
+Protocol is the way that data is used online, like HTTP protocol which is used in the web.
+there's many other protocols. FTP for file transfer and Which for communicating or remotely controlling a computer.
+curl works with all of communication protocols, for example, interact with the HTTP protocol. if we type 
+curl -- help, we see all of the things it can do.
+
+We can use curl with some website, like curl HTTP://www.youtube.com. it use web protocol to get data from 
+server, from this computer.
+if type curl, we'll see that it gets data and download the data from that computer.
+we can limit the speed. For example, curl protocol with URL --limit -rate 1234B.
+
+You can also save the output. So you can say -o with some file name. So for example, curl URL -o computer.html.
+So that's downloaded the contents into a file called computer.html.
+If we type curl with any website like google.com, it gets the contents of that computer into our computer 
+and we can view this contents in termnal.
+
+
