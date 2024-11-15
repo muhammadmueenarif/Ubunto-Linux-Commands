@@ -240,7 +240,19 @@ If we want to create tar.gz file, type tar -czvf pictures.tar.gz *. all your fil
 12. Clear 
 to clear the terminal. We can also use the ctrl+l command. It does not really clear because when we scroll 
 top, we can see previous commands there on screen, 
+
 Ctrl + U to clear everything from left of the cursor. 
+
 Ctrl +K to clear everything from right side of cursor. 
 Reset command. 
 
+
+13. Whatis 
+it give us one line description of the command. Like whatis reset will tell about reset command, 
+Whatis history. 
+
+Help cd. Will give us all details about cd commands. 
+Man cd will give detailed info about cd command. Man pwd will give about pwd command and so on. 
+
+If we forget command and write hi and press tab button 2 times then it will show commands starting with hi. history
+Apropos his, this will show all similar commands with his. 
