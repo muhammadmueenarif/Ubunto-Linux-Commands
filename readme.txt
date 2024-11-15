@@ -184,3 +184,13 @@ So for example, you might say user should be able to read write. The group shoul
 And others should be able to read. 
 (chmod U=rw, g=r, o=r example.txt). we can change permission by writing (r, w).
 
+
+
+9. Wget 
+You can download any file from the internet inside your terminal. wget https://website.com/file.zip (file 
+name with extension).
+So depending on the file size, it can take shorter or longer time.  So now I have that file downloaded 
+onto the computer.
+one thing you noticed is that it shows all of that output into the terminal. while it's downloading, we 
+can't do anything else. So we can download in the background. if we type - b before URL (wget -b URL), 
+then download in background. see now we don't see any outputs. We can continue using terminal while download.
