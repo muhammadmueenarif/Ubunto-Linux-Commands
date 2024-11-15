@@ -235,3 +235,12 @@ write names and extensions of all files you want to add.
 
 we can zip all the files of folder by zip pictures.zip *. So it will create archive using the terminal.
 If we want to create tar.gz file, type tar -czvf pictures.tar.gz *. all your files will be zipped. 
+
+
+12. Clear 
+to clear the terminal. We can also use the ctrl+l command. It does not really clear because when we scroll 
+top, we can see previous commands there on screen, 
+Ctrl + U to clear everything from left of the cursor. 
+Ctrl +K to clear everything from right side of cursor. 
+Reset command. 
+
