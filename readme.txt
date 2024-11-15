@@ -214,3 +214,24 @@ If we type curl with any website like google.com, it gets the contents of that c
 and we can view this contents in termnal.
 
 
+
+11. Archives 
+sometimes we find archive files that can be a zip file or .tar.gz file. Or it can be seven zip file. we can 
+extract files using GUI in the folder we want. 
+
+we can extract in terminal.  we type 7 zip x filname.extension(pictures.7z). make sure that the file format 
+is correct with the command that we type.  Press enter and it extracted those files inside the same directory.
+
+if we have a zip file, type unzip pictures.zip and you'll see it extracted the files in that archive. any 
+archive file can be extracted using terminal.
+
+it could be a zip file or a seven zip file, many others as well. it can be tar.gz.
+if we have a dot set file, to extract it we can type tar -xf pictures.tar.gz. it will extract Archive files. 
+So similarly many types of archives are possible, but the principle is the same.
+
+we cancreate our own archive in terminal. we can Right clicked, select it. clicked archive and then did it in the graphical interface.
+we can archive in terminal. Go to directory. cd directory name. we type zip filename(pictures.zip) and then 
+write names and extensions of all files you want to add. 
+
+we can zip all the files of folder by zip pictures.zip *. So it will create archive using the terminal.
+If we want to create tar.gz file, type tar -czvf pictures.tar.gz *. all your files will be zipped. 
