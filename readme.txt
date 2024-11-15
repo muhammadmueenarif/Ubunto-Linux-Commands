@@ -264,3 +264,8 @@ command from history.
 If we want to search within history of command, we can use ctrl + r. And type command. 
 We can clean command history by typing history ~c. 
 
+
+We can scan our linux system using terminal for viruses. we need to install clamav software for this. free. 
+sudo apt-get install clamav. 
+clamscan -r foldername. this will scan our folder like clamscan -r /home/pictures. once scan is completed we 
+can see summary. hidden files are also scanned. 
