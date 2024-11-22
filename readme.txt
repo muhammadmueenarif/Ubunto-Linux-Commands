@@ -269,3 +269,11 @@ We can scan our linux system using terminal for viruses. we need to install clam
 sudo apt-get install clamav. 
 clamscan -r foldername. this will scan our folder like clamscan -r /home/pictures. once scan is completed we 
 can see summary. hidden files are also scanned. 
+
+
+15. Network Scan 
+nmpa localhost. this command will show open ports. if does not show then we need to install this command first 
+with package manager. in setting > sharing section, we can turn on sharing. nmap is used by system administrator, 
+Network manager, and also hackers. hackers can get your ip address and check which port is open. in setting, 
+sharing, Network, and setting option you can check your ip address. 
+nmap ipaddress. it will show open ports. 
